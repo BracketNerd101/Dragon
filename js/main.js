@@ -101,7 +101,7 @@
 			var pageid = item.getAttribute('href').slice(1);
 			item.addEventListener('click', function(ev) {
 				ev.preventDefault();
-				openPage(pageid);
+				openPage('href');
 			});
 		});
 
@@ -111,7 +111,7 @@
 			page.addEventListener('click', function(ev) {
 				if( isMenuOpen ) {
 					ev.preventDefault();
-					openPage(pageid);
+					openPage('href');
 				}
 			});
 		});
