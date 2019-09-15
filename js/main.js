@@ -98,7 +98,7 @@
 		// navigation menu clicks
 		navItems.forEach(function(item) {
 			// which page to open?
-			var pageid = item.getAttribute('href').slice(1);
+			var pageid = item.getAttribute('id').slice(1);
 			item.addEventListener('click', function(ev) {
 				ev.preventDefault();
 				openPage('href');
