@@ -1,7 +1,6 @@
 html.js,
 .js body {
-	overflow: hidden;
-	height: 100vh;
+	 overflow: hidden;
 }
 
 /* Pages nav */
@@ -177,11 +176,7 @@ html.js,
 
 /* page content */
 
-.info {
-	font-size: 1.25em;
-	max-width: 50%;
-	margin-top: 1.5em;
-}
+
 
 .poster {
 	position: absolute;
@@ -214,7 +209,7 @@ html.js,
 .menu-button::before,
 .menu-button::after,
 .menu-button span {
-	background: #5f656f;
+	background: darkgreen;
 }
 
 .menu-button::before,
